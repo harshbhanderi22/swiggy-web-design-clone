@@ -1,0 +1,250 @@
+body
+{
+	font-family: sans-serif;
+}
+.navbar
+{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 80px;
+	padding-left: 5.5%;
+	
+}
+.logophoto:hover
+{
+	transform: scale(1.05);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.logodiv
+{
+	width: 25%;
+	height: 100%;
+	margin-top: 5px;
+
+}
+.navbuttons
+{
+	align-content: space-between;
+	justify-content: space-between;
+	width: 75%;
+	padding-left: 42%;
+}
+.navlinks{
+	margin-right: 50px;
+	text-decoration: none;
+	color: #3d4152;
+	font-weight: 600;
+}
+.navlinks:hover
+{
+	color: orange;
+}
+.searchbardiv
+{
+	height: 287px;
+	width: 100%;
+	background-color: #494d60;
+	color: white;
+	padding-left: 5.5%;
+	padding-top: 6%;
+}
+.searchbardiv h1 
+{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.fullsearchbar
+{
+	width: 430px;
+	height: 45px;
+
+}
+.searchbar
+{
+	float: left;
+	width: 313px;
+	height: 45px;
+	padding-left: 5%;
+	font-size: 14px;
+	outline: none;
+	margin: 0;
+	border: 1px solid white;
+}
+.searchbar:hover
+{
+	cursor: pointer;
+}
+.findfoodbtn
+{
+	float: right;
+	width: 117px;
+	height: 45px;
+	border: none;
+	color: white;
+	background-color: #fc8019;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0;
+}
+.cityintro
+{
+	padding-left: 5.5%;
+	padding-top: 5.5%;
+}
+.cityintro h1
+{
+	font-size: 32px;
+}
+.cityintro p
+{
+	font-size: 20px;
+	color: #686b78;
+}
+.areatable
+{
+	width: 100%;
+	margin-top: 20px;
+}
+.areaname
+{
+	font-size: 20px;
+	color: #686b78;
+	text-decoration: none;
+}
+.areaname:hover
+{
+	color: black;
+	cursor: pointer;
+}
+.areanamehead 
+{
+	width: 33%;
+}
+.photogallery
+{
+	padding-left: 5.5%;
+    margin-bottom: 200px;
+	}
+.photodiv
+{
+ 
+	padding: 1%;
+	width: 22.2%;
+	float: left;
+	margin-right: 25PX;
+}
+.photodiv:hover
+{
+	border: 1px solid #e3e3e3;
+ }
+.photodiv h5
+{
+	margin-top: 10px;
+}
+.photodiv p
+{
+	color: #686b78;
+	font-size: 13px;
+}
+.photodiv h6
+{
+	font-size: 16px;
+	color: #8a584b;
+}
+.photodiv
+{
+ cursor: pointer;
+ }
+ .tablediv
+{
+	padding-left: 5.5%;
+	height: 100%;
+	border: 1px solid black;
+	background-color: black;
+	clear: both;
+	padding-top: 5.5%;
+	padding-right: 5.5%;
+}
+.table1 
+{
+	width: 75%;
+	font-size: 20px;
+	color: white;
+
+} 
+.table1 th
+{
+	color: gray;
+	width: 37%;
+	padding-bottom: 2%;
+}
+.table1 a
+{
+   color: white;
+   text-decoration: none;
+}
+.table1  td{
+   padding-bottom: 10px;
+   font-weight: 300;
+}
+.table1 a:hover
+{
+	font-weight: 600;
+}
+.hrline
+{
+ margin-top: 2%;
+ color: grey;
+}
+.citytable
+{
+	width: 100%;
+}
+.citytable td{
+	width: 28%;
+}
+.citytable td a
+{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.citytable a:hover
+{
+	 font-weight: 600;
+ }
+.citytable  td{
+   padding-bottom: 12px;
+   font-weight: 300;
+}
+.wedeliver
+{
+ font-size: 14px;
+ font-weight: 600;
+ color: grey;
+ margin-bottom: 30px;
+ margin-top: 60px;
+}
+.bottomlogo
+{
+	height: 42px;
+	width: 142px;
+	float: left;
+}
+.bottomhead
+{
+ 	color: white;
+ 	margin-left: 80%;
+}
+ .downphotos
+{
+ 	width: 24%;
+ 	float: right;
+ 	border: 1px solid white;
+ 	height: 300px;
+
+}

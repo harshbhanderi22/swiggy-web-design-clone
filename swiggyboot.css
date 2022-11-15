@@ -1,0 +1,429 @@
+body
+{
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+
+}
+.signuppage
+{
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: white;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 90px;
+	width: 35.5%;
+	height: 100%;
+}
+.signlabel
+{
+	float: left;
+	width: 70%;
+}
+.signlabel h3
+{
+	color: #282c3f;
+	font-weight: 300;
+	font-size: 30px;
+}
+.signlabel a
+{
+   color: #fc8019;
+   font-size: 15px;
+   text-decoration: none;
+   font-weight: 500;
+   cursor: pointer;
+}
+.frankphoto
+{
+	float: right;
+	margin-top: -10px;
+}
+.close
+{
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.signform
+{
+     height: 75px;
+     width: 100%;
+     padding: 5%;
+     border: 1px solid gray;
+     border-bottom: none;
+     outline: none;  
+}
+.referalcode
+{
+	color: #5d8ed5;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.signupcontinue
+{
+	background-color: #fc8019;
+	color: white;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+.creteaccount
+{
+	font-size: 12px;
+	color: grey;
+	margin-top: 5px;
+
+}
+.terms
+{
+ color: #5d8ed5;
+ text-decoration: none;
+}
+.loginpage
+{
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: white;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 75px;
+	width: 35.5%;
+	height: 100%;
+}
+.header
+{
+	height: 100%;
+}
+.head1
+{
+	width: 56%;
+	height: 100%;
+	float: left;
+	padding-left: 5.5%;
+	padding-top: 4.5%;
+	padding-right: 5%;
+}
+.buttonbar
+{
+	float: right;
+	padding-top: 1%;
+}
+.Login
+{
+	height: 40px;
+	width: 110px;
+	font-size: 15px;
+	color: black;
+	background-color: white;
+	font-weight: bold;
+	margin-left: 100px;
+	border: none;
+	font-family: sans-serif;
+}
+.Login:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+.signup
+{	
+	height: 40px;
+	width: 110px;
+	font-size: 15px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+	border-radius: 0;
+	margin-left: 24px;
+	border-color: black;
+	font-family: sans-serif;
+}
+
+.signup:hover
+{
+	border: 0px;
+	background-color: black;
+	cursor: pointer;
+}
+.headline
+{
+	color: #282c3f;
+	margin-top: 60px;
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+.description
+{
+	color: grey;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: 100;
+	margin-top: 8px;
+}
+.fullsearchbar
+{
+	height: 60px;
+	width: 100%;
+	margin-top: 40px;
+	outline: none;
+}
+.div1
+{
+	float: left; 
+	border: 1px solid black;
+	border-color: #535665; 
+	width: 75.5%; 
+	height: 100%;
+	border-right: none;
+	padding-top: 1%;
+}
+.fullsearchbar input::placeholder
+{
+	color: grey;
+}
+.div1:hover
+{
+	border-color: #fc8019;
+}
+.search
+{
+	width: 66%;
+	border: none;
+	margin-left: 4%;
+	font-size: 18px;
+	font-weight: 600; 
+	outline: none;
+}
+.search:onclick
+{
+	border: 1px solid white;
+}
+.btn
+{
+	padding: 0;
+	margin: 0;
+	width: 25%;
+	font-size: 14px;
+	color: #535665;
+	font-weight: 300;
+	height: 90%;
+	padding: 1%;
+	color: #535665;
+}
+.btn:hover
+{
+	background-color: #ebebeb;
+	border: none;
+	border-radius: 0;
+}
+.findfood
+{
+	width: 150px ;
+	height: 100%;
+	border: none;
+	background-color: #fc8019;
+	color: white;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.popular
+{
+	color: #a9abb2;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.allcity
+{
+	color: #808080;
+	font-size: 16px;
+}
+span
+{
+	color: #a3a3a3;
+	font-weight: bold;
+}
+.middlediv
+{
+	padding-bottom: 4%;
+	width: 100%;
+	background-color: #2b1e16;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+	justify-content: space-between;
+	display: flex;
+}
+.minimumdiv
+{
+	width: 21%;
+	color: white;
+	text-align: center;
+}
+.livediv
+{
+	width: 22%;
+	color: white;
+	text-align: center;
+}
+.fastdiv
+{
+	width: 22%;
+	color: white;
+	text-align: center;
+}
+.thumbtitle
+{
+	font-size: 20px;
+	font-weight: bold
+}
+.thumbdis
+{
+	font-size: 15px;
+	color: #e0cbc1;
+}
+.downloadlinkdiv
+{
+	width: 45%;
+	padding-top: 11%;
+	padding-left: 5.5%;
+	padding-bottom: 11%;
+	height: 100%;
+	float: left;
+	background-color: white;
+
+}
+.downloadtitle
+{
+	width: 300px;
+
+}
+.downloadtitle h1
+{
+	font-size: 40px;
+	color: #282c3f;
+	font-weight: 600;
+	line-height: 1;
+}
+.downloaddis
+{
+	margin-top: 3%;	
+	width: 100%;
+	padding-right: 25%;
+}
+.downloaddis p
+{
+	font-size: 20px;
+	color:  #7e808c;
+}
+.phone1
+{
+	width: 350px;
+	float: left;
+	background-color: white;
+}
+.phone2
+{
+	width: 350px;
+	float: left;
+	margin-top: 6%;
+	background-color: white;
+}
+.tablediv
+{
+	padding-left: 5.5%;
+	height: 100%;
+	border: 1px solid black;
+	background-color: black;
+	clear: both;
+	padding-top: 5.5%;
+	padding-right: 5.5%;
+}
+.table1 
+{
+	width: 75%;
+	font-size: 20px;
+	color: white;
+
+} 
+.table1 th
+{
+	color: gray;
+	width: 37%;
+	padding-bottom: 2%;
+}
+.table1 a
+{
+   color: white;
+   text-decoration: none;
+}
+.table1  td{
+   padding-bottom: 10px;
+   font-weight: 300;
+}
+.table1 a:hover
+{
+	font-weight: 600;
+}
+.hrline
+{
+ margin-top: 2%;
+ color: grey;
+}
+.citytable
+{
+	width: 100%;
+}
+.citytable td{
+	width: 28%;
+}
+.citytable td a
+{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.citytable a:hover
+{
+	 font-weight: 600;
+ }
+.citytable  td{
+   padding-bottom: 12px;
+   font-weight: 300;
+}
+.wedeliver
+{
+ font-size: 14px;
+ font-weight: 600;
+ color: grey;
+ margin-bottom: 30px;
+ margin-top: 60px;
+}
+.bottomlogo
+{
+	height: 42px;
+	width: 142px;
+	float: left;
+}
+.bottomhead
+{
+ 	color: white;
+ 	margin-left: 80%;
+}
+ .downphotos
+{
+ 	width: 24%;
+ 	float: right;
+ 	border: 1px solid white;
+ 	height: 300px;
+
+}

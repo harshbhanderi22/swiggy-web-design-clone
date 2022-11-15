@@ -1,0 +1,9 @@
+HARSH BHANDERI
+Swiggy Project
+
+Main fileName: main.html
+total 4 page: 
+1.main.html
+2.signup page(within main file)
+3.login page(within main file)
+4.swiggycity.html(for Ahmedabad city)
